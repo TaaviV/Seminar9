@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    font-family: "Brush Sctipy MT", cursive;
+    font-size: 2em;
+    margin: 0;
+}
+nav {
+    margin: 10px 0;
+
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.konteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pildid{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.pilt {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    
+}
+}
+.map, .galerii{    
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: italic;
+}
+.galerii{
+    width: 300px;
+    height: 200px;
+
+}
+.map{
+    width: 200px;
+    height: 150px;
+}
+.ikoonid{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.ikoonid div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ikoonid i {
+    font-size: 24px;
+    margin: 10px;
+    color: #333;
+}
+.ikoonid i:hover {
+    color: #0077b5;
+}
+
+
+.aadress{
+    text-align: center;
+    font-size: italic;
+    margin-top: 10px;
+}
